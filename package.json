@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 8080 --host",
+    "build": "parcel build index.html about.html",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
